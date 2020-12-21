@@ -234,9 +234,9 @@ npm i -D webpack-dev-server
 En nuestro `package.json`, agregamos los scripts de _build_ (bundle optimizado para producción) y _dev_ (este último levanta un server local con [HMR](https://webpack.js.org/concepts/hot-module-replacement/))
 
 ```json
-scripts: {
-  build: "NODE_ENV='production' webpack",
-  dev: "webpack-dev-server"
+"scripts": {
+  "build": "NODE_ENV='production' webpack",
+  "dev": "webpack-dev-server"
 }
 ```
 
