@@ -236,7 +236,7 @@ En nuestro `package.json`, agregamos los scripts de _build_ (bundle optimizado p
 ```json
 "scripts": {
   "build": "NODE_ENV='production' webpack",
-  "dev": "webpack-dev-server"
+  "dev": "webpack serve"
 }
 ```
 
